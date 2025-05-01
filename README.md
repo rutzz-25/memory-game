@@ -10,7 +10,7 @@ A fun and interactive web-based memory matching game built with HTML, CSS, and J
 - Responsive design with styled UI
 
 ## 🚀 Demo
-Live version: [https://yourusername.github.io/memory-game](https://yourusername.github.io/memory-game)
+Live version: [https://yourusername.github.io/memory-game](https://rutzz-25.github.io/memory-game)
 
 ## 📁 Project Structure
 index.html (category selection)
@@ -26,9 +26,6 @@ memory_mystyle.css (styling)
 - HTML5
 - CSS3
 - JavaScript (Vanilla)
-
-## 📸 Screenshots
-*(Optional: Add screenshots or GIFs of gameplay)*
 
 ## 🛠️ Setup
 1. Clone the repo:
