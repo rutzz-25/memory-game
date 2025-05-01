@@ -34,3 +34,23 @@ git clone https://github.com/rutzz-25/memory-game.git
 
 ---
 
+---
+
+### ✅ 2. `.gitignore` (Tells Git which files to ignore)
+
+For a basic front-end project, your `.gitignore` can be simple:
+
+```gitignore
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore optional IDE/editor files
+.vscode/
+*.log
+
+# If you use Node.js for hosting or tooling
+node_modules/
+dist/
+.env
+
