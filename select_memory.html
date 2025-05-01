@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Select Memory Game</title>
+  <link rel="stylesheet" href="memory_mystyle.css">
+</head>
+<body class="select-page">
+  <h1 class="title">Select a Memory Game</h1>
+  <button class="btn" onclick="startGame('fruits')">Fruits</button>
+  <button class="btn" onclick="startGame('vegetables')">Vegetables</button>
+  <button class="btn" onclick="startGame('vehicles')">Vehicles</button>
+  <button class="btn" onclick="startGame('flowers')">Flowers</button>
+  <button class="btn" onclick="startGame('animals')">Animals</button>
+
+  <script>
+    function startGame(category) {
+      window.location.href = `game.html?category=${category}`;
+    }
+  </script>
+</body>
+</html>

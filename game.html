@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Memory Game</title>
+  <link rel="stylesheet" href="memory_mystyle.css"/>
+</head>
+<body class="game-page">
+
+  <!-- Back Arrow -->
+  <div class="back-arrow" onclick="showConfirmBox()">←</div>
+
+  <!-- Confirmation Box -->
+  <div id="confirm-box" class="confirm-box hidden">
+    <p>Are you sure you want to quit?</p>
+    <button onclick="confirmExit(true)">Yes</button>
+    <button onclick="confirmExit(false)">No</button>
+  </div>
+  <h1 class="title">"Find Your Pairs"</h1>
+  <div class="game-board" id="game-board"></div>
+
+  <script src="memory_script.js"></script>
+  <script>
+    function showConfirmBox() {
+      document.getElementById('confirm-box').classList.remove('hidden');
+    }
+
+    function confirmExit(shouldExit) {
+      document.getElementById('confirm-box').classList.add('hidden');
+      if (shouldExit) {
+        window.location.href = 'select_memory.html';
+      }
+    }
+  </script>
+</body>
+</html>
